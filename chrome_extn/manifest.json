@@ -1,0 +1,21 @@
+{
+   "app": {
+      "background": {
+         "scripts": [ "background.js","jquery.js" ]
+      }
+   },
+   "description": "First-test to get registration-id. ",
+   
+   
+   "name": "First-test",
+   "permissions": [  "gcm","notifications","http://localhost/*" ],
+   "oauth2": {
+  "client_id": "988505596173-ve3r4bgl2hceqjpi9tu4o6vo8n5spl17.apps.googleusercontent.com",
+  "scopes": [
+    "https://www.googleapis.com/auth/userinfo.profile",
+    "https://www.googleapis.com/auth/gcm_for_chrome",
+    "https://www.googleapis.com/auth/gcm_for_chrome.readonly"
+  ]
+},
+   "version": "4.0"
+}
